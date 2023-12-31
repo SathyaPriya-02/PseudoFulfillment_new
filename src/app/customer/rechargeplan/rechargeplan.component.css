@@ -1,0 +1,56 @@
+/* Add a custom style for the red button */
+.btn-red {
+    background-color: red;
+    border-color: red;
+    color: white; /* Text color, adjust as needed */
+  }
+  
+  /* Change the button color on hover if desired */
+  .btn-red:hover {
+    background-color: darkred;
+    border-color: darkred;
+    color: white; /* Text color, adjust as needed */
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+    margin-left: 10px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-form input {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none; /* Remove the black border on focus */
+    width: 250px;
+    height: 30px;
+  }
+  
+  .search-form button {
+    background-color: #D9534F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form button:hover {
+    background-color: red;
+  }
+  
